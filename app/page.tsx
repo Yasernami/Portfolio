@@ -8,6 +8,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { LangToggle } from "./components/LangToggle";
 import { Effects } from "./components/Effects";
+import { Sound } from "./components/Sound";
 
 export default function HomePage() {
   return (
@@ -34,6 +35,7 @@ export default function HomePage() {
       <Footer />
       <LangToggle />
       <Effects />
+      <Sound />
     </>
   );
 }
